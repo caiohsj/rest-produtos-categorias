@@ -26,6 +26,11 @@ export default new Router({
       name: 'produtos',
       props: true,
       component: () => import('./views/Produtos.vue')
+    },
+    {
+      path: '/carrinho',
+      name: 'carrinho',
+      component: () => import('./views/Carrinho.vue')
     }
   ]
 })

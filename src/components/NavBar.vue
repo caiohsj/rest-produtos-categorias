@@ -20,6 +20,17 @@
                         </b-dropdown-item>
                     </b-nav-item-dropdown>
                 </b-navbar-nav>
+
+                <b-navbar-nav class="ml-auto">
+                    <b-nav-item>
+                        <b-link to="/carrinho">
+                            <b-button variant="success" class="m-1">Carrinho</b-button>
+                        </b-link>
+                        <b-link>
+                            <b-button variant="primary" class="m-1">Login</b-button>
+                        </b-link>
+                    </b-nav-item>
+                </b-navbar-nav>
             </b-collapse>
         </b-navbar>
     </div>
